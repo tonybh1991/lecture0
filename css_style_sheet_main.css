@@ -1,0 +1,96 @@
+/* We need to make sure that every single image in the carousel have the same size, image width and height. */
+#carouselImages {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.roulette.top_message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.3em;
+  color: #000000;
+}
+
+.roulette.bottom_message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+#mainPageMenu {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#lawyerImage {
+  border-radius: 50%;
+}
+
+#pricingTable {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+div h3 {
+  font-style: italic;
+}
+
+#fromInputTestimony {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#expertiseList {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  margin-top: 5%;
+  text-align: center;
+  display: inline;
+}
+
+#fromInputInformation {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#bottomJumbotron {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+#buttomJumbotronText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+  text-align: center;
+}
+
+@@media (max-width: 499px) {
+  body {
+    width: 40%;
+    height: 50%;
+    display: flex;
+  }
+}
