@@ -1,0 +1,29 @@
+$font1: italic;
+$font2: bold;
+$color: #000000;
+
+div{
+  color:$color;
+  h3{
+    font-style:$font1;
+  }
+  p{
+    font-style:$font2;
+  }
+}
+
+%fontpricing{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: #000000;
+}
+
+#pricingTable{
+  @extend %fontpricing;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
